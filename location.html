@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="popup">
+    <div class="popup__create">
+      <h2 class="popup__title">Создать локацию</h2>
+      <div class="popup__inputs">
+      <input type="text" class="popup__input" placeholder="Название">
+      <input type="text" class="popup__input" placeholder="Штрихкод">
+      <input type="text" class="popup__input" placeholder="RFID">
+      <input type="text" class="popup__input" placeholder="Вложенность">
+    </div>
+      <div class="popup__block">
+        <p class="popup__text">Виртуальная локация</p>
+        <label class="checkbox-ios">
+          <input type="checkbox">
+          <span class="checkbox-ios-switch"></span>
+        </label>
+      </div>
+      <div class="popup__block">
+        <p class="popup__text">Локация для утерь</p>
+        <label class="checkbox-ios">
+          <input type="checkbox">
+          <span class="checkbox-ios-switch"></span>
+        </label>
+      </div>
+      <dib class="popup__buttons">
+        <button class="footer__save popup__button-create">Создать</button>
+        <button class="footer__cansel popup__button-cancel">Отменить</button>
+      </dib>
+    </div>
+  </div>
+  <div class="popup2">
+    <div class="popup__edit">
+      <h2 class="popup__title">Изменить локацию %название%</h2>
+      <div class="popup__inputs">
+        <label class=" popup__label">Название</label>
+      <input type="text" class="popup__input" placeholder="Название">
+      <label class=" popup__label">Штрихкод</label>
+      <input type="text" class="popup__input" placeholder="Штрихкод">
+      <label class=" popup__label">RFID</label>
+      <input type="text" class="popup__input" placeholder="RFID">
+      <label class=" popup__label">Вложенность</label>
+      <input type="text" class="popup__input" placeholder="Вложенность">
+      </div>
+    <div class="popup__block">
+      <p class="popup__text">Виртуальная локация</p>
+      <label class="checkbox-ios">
+        <input type="checkbox">
+        <span class="checkbox-ios-switch"></span>
+      </label>
+    </div>
+    <div class="popup__block">
+      <p class="popup__text">Локация для утерь</p>
+      <label class="checkbox-ios">
+        <input type="checkbox">
+        <span class="checkbox-ios-switch"></span>
+      </label>
+    </div>
+    <div class="popup__buttons">
+      <button class="popup__button-delete">Создать</button>
+      <button class="footer__cansel popup__button-cancel popup__button-cancel2">Отменить</button>
+    </div>
+    <button class="footer__save popup__save">Сохранить</button>
+  </div>
+  </div>
+  <header class="header">
+    <img class="header__logo" src="/images/Logo (1).svg" alt="Логотип">
+    <a class="header__link-exit" href="#">
+    <img class="header__exit" src="/images/Vector.svg" alt="Иконка выхода">
+  </a>
+  </header>
+  
+  <main class="main">
+    <ul class="navbar">
+      <li class="navbar__point">
+        <img class="navbar__image" src="./images/Vector(4)-min.svg">
+        <p class="navbar__name">Имущество</p>
+      </li>
+      <li class="navbar__point">
+        <img class="navbar__image" src="./images/Vector(5)-min.svg">
+        <p class="navbar__name">Инвентаризация</p>
+      </li>
+      <li class="navbar__point">
+        <img class="navbar__image" src="./images/Vector(6)-min.svg">
+        <p class="navbar__name">Сотрудники</p>
+      </li>
+      <li class="navbar__point">
+        <img class="navbar__image" src="./images/Vector(7)-min.svg">
+        <p class="navbar__name">Уведомления</p>
+      </li>
+      <li class="navbar__point">
+        <img class="navbar__image" src="./images/Vector(8)-min.svg">
+        <p class="navbar__name">Локации</p>
+      </li>
+      <li class="navbar__point">
+        <a class="link" href="/settings.html">
+        <img class="navbar__image" src="./images/Vecto(9)-min.svg">
+      
+        <p class="navbar__name">Настройки</p>
+      </a>
+      </li>
+      <a class="navbar__link">Скрыть меню</a>
+    </ul>
+    <div class="location">
+      <h1 class="location__title">Локации / Все локации</h1>
+      <div class="location__buttons">
+        <div>
+        <button class="location__button">Все локации</button>
+        <button class="location__button">Импорт/Экспорт</button>
+        <button class="location__button">Настройки</button>
+      </div>
+      <button class="location__button-sync"> синхронизация <span class="location__span-sync">(17.05.2024 15:23:21)</span></button>
+      </div>
+      <form class="location__new">
+      <button class="location__create">Создать локацию</button>
+      <div class="location__search">
+        <input type="checkbox" id="checkbox" name="happy" value="yes" class="custom-checkbox">
+        <label for="checkbox" class="location__checkbox-text">Поиск по точному вхождению</label>
+        <div class="text-field">
+          <div class="text-field__icon text-field__icon_search">
+            <input class="text-field__input" type="text" placeholder="ПОИСК" value="ПОИСК">
+          </div>
+        </div>
+      </div>      
+    </form>
+    <ul class="list">
+      <li class="list__point">
+        <div style="display: flex;">
+        <img src="./images/Group268.jpg" alt="Иконка" class="list__icon">
+        <img src="./images/Group532.jpg" alt="Иконка" class="list__img">
+        <h2 class="list__title">Локация 1</h2>
+        <p class="list__number">512</p>
+        <button class="list__edit display">Редактировать</button>
+        <button class="list__delete display">Удалить</button>
+      </div>
+        <div class="list__point-dop display">
+          <img src="./images/Group268.jpg" alt="Иконка" class="list__icon">
+          <img src="./images/Group532.jpg" alt="Иконка" class="list__img">
+          <h2 class="list__title">Локация 1</h2>
+          <p class="list__number">512</p>
+        </div>
+      </li>
+      <li class="list__point">
+        <div style="display: flex;">
+        <img src="./images/Group268.jpg" alt="Иконка" class="list__icon">
+        <img src="./images/Group532.jpg" alt="Иконка" class="list__img">
+        <h2 class="list__title">Локация 1</h2>
+        <p class="list__number">512</p>
+        <button class="list__edit display">Редактировать</button>
+        <button class="list__delete display">Удалить</button>
+      </div>
+        <div class="list__point-dop display">
+          <img src="./images/Group268.jpg" alt="Иконка" class="list__icon">
+          <img src="./images/Group532.jpg" alt="Иконка" class="list__img">
+          <h2 class="list__title">Локация 1</h2>
+          <p class="list__number">512</p>
+        </div>
+      </li>
+      <li class="list__point">
+        <div style="display: flex;">
+        <img src="./images/Group268.jpg" alt="Иконка" class="list__icon">
+        <img src="./images/Group532.jpg" alt="Иконка" class="list__img">
+        <h2 class="list__title">Локация 1</h2>
+        <p class="list__number">512</p>
+        <button class="list__edit display">Редактировать</button>
+        <button class="list__delete display">Удалить</button>
+      </div>
+        <div class="list__point-dop display">
+          <img src="./images/Group268.jpg" alt="Иконка" class="list__icon">
+          <img src="./images/Group532.jpg" alt="Иконка" class="list__img">
+          <h2 class="list__title">Локация 1</h2>
+          <p class="list__number">512</p>
+        </div>
+      </li>
+    </ul>
+    </div>
+  </main>
+  <footer class="footer">
+    <div></div>
+    <div class="footer__info">
+      <p class="footer__text">Последний приём 20.09.2021 18:36:21</p>
+      <p class="footer__text">Последняя передача  20.09.2021 18:38:21</p>
+    </div>
+    <div class="footer__links">
+    <img src="/images/Vector.jpg" class="footer__icon">
+    <a class="footer__link" href="#">      
+      Документация
+    </a>
+  </div>
+  </footer>
+  
+  <script src="/script.js"></script>
+</body>
+</html>
