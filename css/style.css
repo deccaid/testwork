@@ -1,4 +1,4 @@
-@import url(/fonts/stylesheet.css);
+@import url(./fonts/stylesheet.css);
 body {
   margin: 0;
 }
@@ -47,7 +47,7 @@ height: 75vh;
 }
 .navbar__link {
   font-family: 'Futura PT', sans-serif;
-  background-image: url(/images/gal-min.svg);
+  background-image: url(./images/gal-min.svg);
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 25px;
@@ -104,7 +104,7 @@ color: #fff;
 background-color: #000;
 border-radius: 5px;
 padding: 15px 18px 15px 48px;
-background-image: url(/images/Vector\(10\)-min.svg);
+background-image: url(./images/Vector\(10\)-min.svg);
 background-repeat: no-repeat;
 background-position: 18px;
 text-transform: uppercase;
@@ -120,7 +120,7 @@ text-transform: uppercase;
 }
 .location__create {
   background-color: black;
-  background-image: url(/images/plus.svg);
+  background-image: url(./images/plus.svg);
   background-repeat: no-repeat;
   background-position: 51px;
   text-transform: uppercase;
@@ -209,7 +209,7 @@ border-radius: 5px;
 /* иконка лупы */
 .text-field__icon_search::before {
   width: 1rem;
-  background-image: url('/images/lupa.svg');
+  background-image: url('./images/lupa.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -250,7 +250,7 @@ font-family: 'Futura PT',sans-serif;
   color:  #FF6600;
   font-family: 'Futura PT',sans-serif;
   border: none;
-  background-image: url(/images/Vector11-min.svg);
+  background-image: url(./images/Vector11-min.svg);
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 15px;
@@ -268,7 +268,7 @@ height: 17px;
   color:  #FF5959;
   font-family: 'Futura PT',sans-serif;
   border: none;
-  background-image: url(/images/Vector12-min.svg);
+  background-image: url(./images/Vector12-min.svg);
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 15px;
@@ -404,7 +404,7 @@ text-align: center;
  }
  .footer__save {
   background-color: black;
-  background-image: url(/images/save.svg);
+  background-image: url(./images/save.svg);
   background-repeat: no-repeat;
   background-position: 51px;
   text-transform: uppercase;
@@ -592,7 +592,7 @@ text-align: left;
 }
 .popup__button-delete {
 
-  background-image: url(/images/delete.svg);
+  background-image: url(./images/delete.svg);
   background-repeat: no-repeat;
   background-position: 51px;
   text-transform: uppercase;
